@@ -86,10 +86,10 @@ title = {}
 value = {}
 selected = { reversed = true }
 
-[completion]
-border = { fg = "#7fb4ca" }
-active = { reversed = true }
-inactive = {}
+# [completion]
+# border = { fg = "#7fb4ca" }
+# active = { reversed = true }
+# inactive = {}
 
 [tasks]
 border = { fg = "#7fb4ca" }
