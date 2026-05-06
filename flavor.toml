@@ -27,6 +27,9 @@ marker_selected = { fg = "#e46876", bg = "#e46876" }
 
 cwd = { fg = "#e6c384" }
 
+hovered = { reversed = true }
+preview_hovered = { reversed = true }
+
 find_keyword = { fg = "#e46876", bg = "#181616" }
 find_position = {}
 
@@ -41,9 +44,10 @@ border_style = { fg = "#c5c9c5" }
 parent = { reversed = true }
 current = { reversed = true }
 preview = { reversed = true }
+padding = { open = "▐", close = "▌" }
 
 [tabs]
-active = { fg = "#181616", bg = "#8ba4b0" }
+active = { fg = "#181616", bg = "#8ba4b0", reversed = true }
 inactive = { fg = "#8ba4b0", bg = "#0d0c0c" }
 
 sep_inner = { open = "", close = "" }
@@ -86,10 +90,10 @@ title = {}
 value = {}
 selected = { reversed = true }
 
-# [completion]
-# border = { fg = "#7fb4ca" }
-# active = { reversed = true }
-# inactive = {}
+[cmp]
+border = { fg = "#7fb4ca" }
+active = { reversed = true }
+inactive = {}
 
 [tasks]
 border = { fg = "#7fb4ca" }
